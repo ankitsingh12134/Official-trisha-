@@ -73,11 +73,11 @@ def aq_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=config.SUPPORT_CHAT
-            ),
-            InlineKeyboardButton(
-                text="• 𝐔ᴘᴅᴀᴛᴇs •", url=config.SUPPORT_CHANNEL
+            #InlineKeyboardButton(
+               # text="• 𝐒ᴜᴘᴘᴏʀᴛ •", url=config.SUPPORT_CHAT
+           # ),
+           # InlineKeyboardButton(
+              #  text="• 𝐔ᴘᴅᴀᴛᴇs •", url=config.SUPPORT_CHANNEL
             ),
         ],
         [
