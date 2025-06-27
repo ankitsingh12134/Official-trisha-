@@ -101,7 +101,7 @@ async def settings_back_markup(client, CallbackQuery: CallbackQuery, _):
 async def gib_repo_callback(_, callback_query):
     await callback_query.edit_message_media(
         media=InputMediaVideo(
-            "https://files.catbox.moe/w7705q.mp4", 
+            "https://files.catbox.moe/fkgv84.mp4", 
             has_spoiler=False, 
         ),
         reply_markup=InlineKeyboardMarkup(
