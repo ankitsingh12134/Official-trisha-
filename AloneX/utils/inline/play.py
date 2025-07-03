@@ -75,7 +75,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="{🇮🇳}𝗢𝘄𝗻𝗲𝗿", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
-                text="𝗨𝗽𝗱𝗮𝘁𝗲𝘀", url=config.SUPPORT_CHAT
+                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=config.SUPPORT_CHAT
             ),
         ],
         [
@@ -100,7 +100,7 @@ def stream_markup(_, chat_id):
                 text="{🇮🇳}𝗢𝘄𝗻𝗲𝗿", user_id=config.OWNER_ID,
             ),
             InlineKeyboardButton(
-                text="𝗨𝗽𝗱𝗮𝘁𝗲𝘀", url=config.SUPPORT_CHAT
+                text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=config.SUPPORT_CHAT
             ),
         ],
         [
