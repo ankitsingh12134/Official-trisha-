@@ -79,7 +79,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-            InlineKeyboardButton("𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ]", url=f"https://t.me/Jani_Music_Robot?start=help"),
+            InlineKeyboardButton("𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ]", url=f"https://t.me/Jani_Music_Robot?start=_tgr_ZKk4ScVhZTI1"),
         ],
         [InlineKeyboardButton(text="[✗]𝐂ʟᴏsᴇ[✗]", callback_data="close")],
     ]
@@ -104,7 +104,7 @@ def stream_markup(_, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton("𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ]", url=f"https://t.me/Jani_Music_Robot?start=help"),
+            InlineKeyboardButton("𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ]", url=f"https://t.me/Jani_Music_Robot?start=_tgr_ZKk4ScVhZTI1"),
         ],
         [InlineKeyboardButton(text="[✗]𝐂ʟᴏsᴇ[✗]", callback_data="close")],
     ]
