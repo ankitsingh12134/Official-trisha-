@@ -25,9 +25,9 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", "7530396550"))
 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Jani_RP_Lover")
+OWNER_USERNAME = getenv("OWNER_USERNAME","@II_CLASSY_Il")
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "Jani_Music_Robot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@KANHA_MIX_MUSIC_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_RP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7ROq61PIXmE5NmU1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+eDGuiLMGvO0zNmFl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+eDGuiLMGvO0zNmFl")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -88,21 +88,21 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/u15ml3.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/l7n2co.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/u15ml3.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/l7n2co.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/u15ml3.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/u15ml3.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/u15ml3.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/l7n2co.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/l7n2co.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/l7n2co.jpg"
 
 
 def time_to_seconds(time):
