@@ -23,7 +23,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "7530396550"))
+OWNER_ID = int(getenv("OWNER_ID", "7604553933"))
 
 OWNER_USERNAME = getenv("OWNER_USERNAME","@II_CLASSY_Il")
 
